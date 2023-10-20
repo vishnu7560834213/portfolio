@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 128, 0, 0.703);
+}
+
+.nav{
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(54, 222, 104, 0.332);
+    position: relative;
+    position: sticky;
+    top: 0px;
+}
+.nav:hover{
+    background-color: rgba(242, 117, 117, 0.119);
+}
+.components{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 30px;
+    width: 100%;
+    height: 60px;
+}
+.components a{
+    color: white;
+    text-decoration: none;
+}
+#home img{
+    width: 100%;
+    height: 300px;
+}
+.profile{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg/330px-Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg');
+    background-size: cover;
+    background-position: center;
+    left: 120px;
+    bottom: 135px;
+    border-radius: 200px;
+}
+.head{
+    margin-top: 30px;
+    font-family: 'Young Serif', serif;
+    font-size: 34px;
+    margin-left: 450px;
+    font-size: 50px;
+    color: white;
+}
+#about{
+    display: flex;
+    background-color: cornflowerblue;
+}
+.aboutone{
+    height: 200px;
+    width:300px ;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.aboutt{
+    width: 800px;
+    height: 200px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+#career{
+    background-color: white;
+}
+#career img{
+    width: 100%;
+    height: 1000px;
+}
+#projects{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    display: flex;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.one{
+    background-image: url('https://freepngimg.com/save/153888-logo-google-free-photo/720x720');
+}
+.two{
+    background-image: url('https://logos-world.net/wp-content/uploads/2022/05/Alphabet-Emblem.png');
+}
+.three{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Google_Plus_logo_%282015-2019%29.svg/2048px-Google_Plus_logo_%282015-2019%29.svg.png');
+}
+.desc{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.disc{
+    flex: 1;
+    background-color: cornflowerblue;
+    text-align: justify;
+    margin-left: 30px;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+}
+.row{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.column{
+   width: 300px;
+   height: 300px;
+   border: 1px ridge black;
+   margin-bottom: 20px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.colone{
+    background-image: url('https://achievement.org/wp-content/uploads/2016/07/2-wordpress_mineta_page_Academy2005_1299-scaled.jpg');
+}
+.coltwo{
+    background-image: url('https://im.rediff.com/money/2008/dec/26sld02.jpg');
+}
+.para{
+    font-size: 20px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(225, 22, 22);
+    text-align: center;
+}
+#achivements{
+    display: flex;
+}
+.row2{
+    width: 900px;
+    height: 300px;
+}
+
+a{
+    color: white;
+}
+
+@media screen and (max-width:400px)
+{
+
+    *{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    body{
+        background-color: rgba(222, 255, 101, 0.703);
+    }
+
+    .nav{
+        z-index: 1;
+        width: 400px;
+        height: 60px;
+        background-color: rgba(28, 28, 204, 0.913);
+        position: relative;
+        position: sticky;
+        top: 0px;
+    }
+    .components{
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+        top: 30px;
+        width: 400px;
+        height: 60px;
+        font-size: 10px;
+    }
+    #home img{
+        width: 400px;
+        height: 100px;
+    }
+    .profile{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        background-image: url('https://cdn.ndtv.com/tech/images/sundar_pichai.jpg');
+        background-size: cover;
+        background-position: center;
+        left: 20px;
+        bottom: 240px;
+        border-radius: 200px;
+    }
+    .head{
+        margin-top: 14px;
+        font-family: 'Young Serif', serif;
+        margin-left: 136px;
+        font-size: 20px;
+        color: rgb(27, 103, 234);
+    }
+    #about{
+       background-color: rgb(223, 255, 97);
+       display: flex;
+       flex-direction: column;
+    }
+    .aboutone{
+        height: 100px;
+        width:400px ;
+        margin-top: 25px;
+        margin-left: 25px;
+        font-size: 10px;
+    }
+    .aboutt{
+        width: 350px;
+        height: 160px;
+        text-align: justify;
+        margin-top: 15px;
+        margin-left: 25px;
+        font-size: 10px;
+    }
+    #career img{
+        width: 400px;
+        height: 200px;
+    }
+    .pro{
+        display: flex;
+    }
+    #projects{
+        width: 50px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        display: flex;
+
+    }
+    .img{
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .desc{
+        width: 340px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+
+    }
+    .achi{
+        width: 400px;
+    }
+    .row2{
+        width: 300px;
+        height: 200px;
+        padding: 10px;
+    }
+    .row{
+        width: 100px;
+        height: 200px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .column{
+        width: 100px;
+        height: 200px;
+        border: 1px ridge rgb(143, 43, 43);
+        margin-bottom: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+     }
+     .row2 em{
+        font-size: 10px;
+    }
+}
